@@ -15,10 +15,14 @@
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.9.1",
     "axios": "^1.11.0",
+    "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
     "express-rate-limit": "^8.0.1",
     "framer-motion": "^12.23.12",
     "joi": "^18.0.1",
+    "json2csv": "^6.0.0-alpha.2",
     "lodash": "^4.17.21",
     "mui-color-input": "^7.0.0",
     "mysql2": "^3.14.4",
@@ -29,10 +33,7 @@
     "react-scripts": "5.0.1",
     "sanitize-filename": "^1.6.3",
     "web-vitals": "^2.1.4",
-    "express": "^4.19.2",
-    "dotenv": "^16.4.5",
-    "winston": "^3.17.0",
-    "bcrypt": "^5.1.1"
+    "winston": "^3.17.0"
   },
   "scripts": {
     "start": "react-scripts start",
