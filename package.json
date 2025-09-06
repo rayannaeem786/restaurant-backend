@@ -31,7 +31,8 @@
     "web-vitals": "^2.1.4",
     "express": "^4.19.2",
     "dotenv": "^16.4.5",
-    "winston": "^3.17.0"
+    "winston": "^3.17.0",
+    "bcrypt": "^5.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
