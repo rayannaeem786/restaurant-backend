@@ -1,0 +1,495 @@
+{"error":"invalid signature","level":"error","message":"JWT verification error:","timestamp":"2025-09-03T16:31:13.450Z"}
+{"error":"invalid signature","level":"error","message":"JWT verification error:","timestamp":"2025-09-03T16:31:13.455Z"}
+{"error":"\"is_delivery\" must be a boolean","level":"error","message":"Invalid order data:","orderId":"129","tenantId":"tenant-1","timestamp":"2025-09-03T16:52:52.935Z"}
+{"error":"\"is_delivery\" must be a boolean","level":"error","message":"Invalid order data:","orderId":"129","tenantId":"tenant-1","timestamp":"2025-09-03T16:53:13.386Z"}
+{"error":"\"is_delivery\" must be a boolean","level":"error","message":"Invalid order data:","orderId":"129","tenantId":"tenant-1","timestamp":"2025-09-03T16:53:19.494Z"}
+{"error":"\"is_delivery\" must be a boolean","level":"error","message":"Invalid order data:","orderId":"129","tenantId":"tenant-1","timestamp":"2025-09-03T16:53:29.581Z"}
+{"error":"\"is_delivery\" must be a boolean","level":"error","message":"Invalid order data:","orderId":"129","tenantId":"tenant-1","timestamp":"2025-09-03T16:53:35.329Z"}
+{"error":"\"items\" is required","level":"error","message":"Invalid order data:","orderId":"128","tenantId":"tenant-1","timestamp":"2025-09-03T16:56:08.123Z"}
+{"error":"\"items\" is required","level":"error","message":"Invalid order data:","orderId":"128","tenantId":"tenant-1","timestamp":"2025-09-03T16:56:10.578Z"}
+{"error":"\"is_delivery\" must be a boolean","level":"error","message":"Invalid order data:","orderId":"130","tenantId":"tenant-1","timestamp":"2025-09-03T16:56:36.695Z"}
+{"error":"\"is_delivery\" must be a boolean","level":"error","message":"Invalid order data:","orderId":"129","tenantId":"tenant-1","timestamp":"2025-09-03T16:58:22.876Z"}
+{"error":"\"is_delivery\" must be a boolean","level":"error","message":"Invalid order data:","orderId":"129","tenantId":"tenant-1","timestamp":"2025-09-03T16:58:36.503Z"}
+{"error":"\"is_delivery\" must be a boolean","level":"error","message":"Invalid order data:","orderId":"129","tenantId":"tenant-1","timestamp":"2025-09-03T16:58:48.188Z"}
+{"error":"\"items\" is required","level":"error","message":"Invalid order data:","orderId":"129","tenantId":"tenant-1","timestamp":"2025-09-03T17:01:24.453Z"}
+{"error":"\"items\" is required","level":"error","message":"Invalid order data:","orderId":"128","tenantId":"tenant-1","timestamp":"2025-09-03T17:01:29.790Z"}
+{"error":"\"items\" is required","level":"error","message":"Invalid order data:","orderId":"128","tenantId":"tenant-1","timestamp":"2025-09-03T17:01:31.665Z"}
+{"error":"\"items\" is required","level":"error","message":"Invalid order data:","orderId":"128","tenantId":"tenant-1","timestamp":"2025-09-03T17:01:32.736Z"}
+{"error":"\"items\" is required","level":"error","message":"Invalid order data:","orderId":"128","tenantId":"tenant-1","timestamp":"2025-09-03T17:01:35.442Z"}
+{"currentStatus":"pending","level":"error","message":"Invalid status transition:","orderId":"128","requestedStatus":"pending","tenantId":"tenant-1","timestamp":"2025-09-03T17:02:09.659Z"}
+{"currentStatus":"pending","level":"error","message":"Invalid status transition:","orderId":"128","requestedStatus":"pending","tenantId":"tenant-1","timestamp":"2025-09-03T17:02:17.105Z"}
+{"currentStatus":"pending","level":"error","message":"Invalid status transition:","orderId":"128","requestedStatus":"pending","tenantId":"tenant-1","timestamp":"2025-09-03T17:02:45.151Z"}
+{"currentStatus":"pending","level":"error","message":"Invalid status transition:","orderId":"128","requestedStatus":"pending","tenantId":"tenant-1","timestamp":"2025-09-03T17:02:47.575Z"}
+{"currentStatus":"pending","level":"error","message":"Invalid status transition:","orderId":"128","requestedStatus":"pending","tenantId":"tenant-1","timestamp":"2025-09-03T17:02:48.088Z"}
+{"currentStatus":"pending","level":"error","message":"Invalid status transition:","orderId":"128","requestedStatus":"pending","tenantId":"tenant-1","timestamp":"2025-09-03T17:02:48.277Z"}
+{"currentStatus":"pending","level":"error","message":"Invalid status transition:","orderId":"128","requestedStatus":"pending","tenantId":"tenant-1","timestamp":"2025-09-03T17:02:48.475Z"}
+{"currentStatus":"pending","level":"error","message":"Invalid status transition:","orderId":"128","requestedStatus":"pending","tenantId":"tenant-1","timestamp":"2025-09-03T17:02:48.703Z"}
+{"error":"\"items\" is required","level":"error","message":"Invalid order data:","orderId":"126","tenantId":"tenant-1","timestamp":"2025-09-03T17:13:35.068Z"}
+{"error":"\"items\" is required","level":"error","message":"Invalid order data:","orderId":"126","tenantId":"tenant-1","timestamp":"2025-09-03T17:13:37.252Z"}
+{"currentStatus":"pending","level":"error","message":"Invalid status transition:","orderId":"126","requestedStatus":"pending","tenantId":"tenant-1","timestamp":"2025-09-03T17:14:59.167Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:12:59.889Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:12:59.913Z"}
+{"error":"jwt expired","level":"error","message":"JWT verification error:","timestamp":"2025-09-03T18:12:59.918Z"}
+{"error":"jwt expired","level":"error","message":"JWT verification error:","timestamp":"2025-09-03T18:12:59.924Z"}
+{"error":"jwt expired","level":"error","message":"JWT verification error:","timestamp":"2025-09-03T18:12:59.931Z"}
+{"error":"jwt expired","level":"error","message":"JWT verification error:","timestamp":"2025-09-03T18:12:59.936Z"}
+{"error":"jwt expired","level":"error","message":"JWT verification error:","timestamp":"2025-09-03T18:12:59.942Z"}
+{"error":"jwt expired","level":"error","message":"JWT verification error:","timestamp":"2025-09-03T18:12:59.947Z"}
+{"error":"jwt expired","level":"error","message":"JWT verification error:","timestamp":"2025-09-03T18:12:59.952Z"}
+{"error":"jwt expired","level":"error","message":"JWT verification error:","timestamp":"2025-09-03T18:12:59.959Z"}
+{"error":"jwt expired","level":"error","message":"JWT verification error:","timestamp":"2025-09-03T18:12:59.965Z"}
+{"error":"jwt expired","level":"error","message":"JWT verification error:","timestamp":"2025-09-03T18:12:59.971Z"}
+{"error":"jwt expired","level":"error","message":"JWT verification error:","timestamp":"2025-09-03T18:12:59.978Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:13:04.909Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:13:04.986Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:13:09.924Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:13:10.003Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:13:14.942Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:13:15.026Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:13:19.970Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:13:20.049Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:13:24.996Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:13:25.075Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:13:30.012Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:13:30.092Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:13:35.036Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:13:35.116Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:13:40.062Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:13:40.140Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:13:45.079Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:13:45.157Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:13:50.101Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:13:50.182Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:13:55.125Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:13:55.204Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:00.150Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:00.231Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:05.171Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:05.249Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:10.197Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:10.276Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:15.224Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:15.305Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:20.246Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:20.325Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:25.275Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:25.355Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:30.303Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:30.384Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:35.330Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:35.408Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:40.354Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:40.435Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:45.371Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:45.453Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:50.398Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:50.479Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:55.428Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:14:55.508Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:00.446Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:00.529Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:05.470Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:05.549Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:10.486Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:10.568Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:15.506Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:15.589Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:20.524Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:20.606Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:25.542Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:25.623Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:30.566Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:30.646Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:35.596Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:35.676Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:40.626Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:40.705Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:45.650Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:45.729Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:50.674Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:50.751Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:55.694Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:15:55.774Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:00.714Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:00.793Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:05.730Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:05.809Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:10.757Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:10.837Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:15.787Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:15.851Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:20.812Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:20.876Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:25.840Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:25.903Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:30.856Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:30.922Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:35.883Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:35.948Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:40.903Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:40.965Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:45.922Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:45.995Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:50.940Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:51.026Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:55.966Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:16:56.042Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:17:01.002Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:17:01.063Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:17:06.026Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:17:06.096Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:17:11.053Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:17:11.117Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:17:16.081Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:17:16.143Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:17:21.443Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:17:21.469Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:17:27.444Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:17:27.473Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:17:33.434Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:17:33.466Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:17:39.445Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:17:39.473Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:17:45.439Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:17:45.465Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:17:51.440Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:17:51.471Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:17:57.449Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:17:57.477Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:18:03.447Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:18:03.472Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:18:09.438Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:18:09.469Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:18:15.931Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:18:15.951Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:18:21.436Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:18:21.462Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:18:27.436Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:18:27.465Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:18:33.439Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:18:33.467Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:18:39.440Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:18:39.465Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:18:45.436Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:18:45.463Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:18:51.444Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:18:51.472Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:18:57.442Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:18:57.459Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:19:03.442Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:19:03.465Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:19:09.440Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:19:09.470Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:19:15.430Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:19:15.458Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:19:21.432Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:19:21.460Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:19:27.435Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:19:27.448Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:19:33.425Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:19:33.453Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:19:39.429Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:19:39.456Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:19:45.426Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:19:45.456Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:19:51.427Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:19:51.455Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:19:57.441Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:19:57.471Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:20:03.444Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:20:03.469Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:20:09.437Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:20:09.467Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:20:15.430Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:20:15.458Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:20:21.439Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:20:21.469Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:20:27.431Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:20:27.460Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:20:33.437Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:20:33.464Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:20:39.442Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:20:39.471Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:20:45.426Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:20:45.449Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:20:51.433Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:20:51.447Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:20:57.431Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:20:57.460Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:21:03.457Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:21:03.488Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:21:09.441Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:21:09.455Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:21:15.447Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:21:15.475Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:21:21.432Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:21:21.449Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:21:27.447Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:21:27.476Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:21:33.434Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:21:33.459Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:21:39.449Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:21:39.477Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:21:45.448Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:21:45.475Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:21:51.448Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:21:51.478Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:21:57.444Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:21:57.459Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:22:03.442Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:22:03.465Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:22:09.440Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:22:09.456Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:22:15.446Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:22:15.460Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:22:21.438Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:22:21.467Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:22:27.440Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:22:27.470Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:22:33.453Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:22:33.475Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:22:39.442Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:22:39.471Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:22:45.442Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:22:45.470Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:22:50.461Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:22:50.494Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:22:55.473Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:22:55.521Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:00.488Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:00.536Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:05.513Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:05.560Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:10.534Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:10.576Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:15.546Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:15.593Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:20.571Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:20.619Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:25.585Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:25.631Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:30.598Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:30.648Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:35.620Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:35.668Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:40.660Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:40.685Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:45.676Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:45.707Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:50.690Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:50.720Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:55.709Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:23:55.740Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:00.735Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:00.766Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:05.746Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:05.777Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:10.763Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:10.794Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:15.784Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:15.815Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:20.807Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:20.838Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:25.833Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:25.865Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:30.852Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:30.884Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:35.877Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:35.908Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:40.894Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:40.931Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:45.924Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:45.956Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:50.946Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:50.977Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:55.968Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:24:55.999Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:00.991Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:01.023Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:06.013Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:06.044Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:11.037Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:11.068Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:16.059Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:16.084Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:21.087Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:21.115Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:26.109Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:26.141Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:31.126Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:31.162Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:36.155Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:36.187Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:41.180Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:41.210Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:46.195Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:46.227Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:51.213Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:51.246Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:56.236Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:25:56.267Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:01.252Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:01.287Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:06.269Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:06.302Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:11.289Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:11.332Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:16.305Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:16.354Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:21.322Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:21.371Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:26.348Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:26.397Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:31.367Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:31.415Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:36.382Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:36.430Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:41.398Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:41.446Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:46.414Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:46.478Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:51.437Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:51.494Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:56.461Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:26:56.509Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:01.476Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:01.524Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:06.506Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:06.554Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:11.533Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:11.581Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:16.560Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:16.608Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:21.578Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:21.627Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:26.604Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:26.652Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:31.627Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:31.675Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:36.642Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:36.690Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:41.654Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:41.718Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:46.676Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:46.732Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:51.692Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:51.756Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:56.709Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:27:56.773Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:01.731Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:01.797Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:06.751Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:06.816Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:11.764Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:11.838Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:16.791Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:16.865Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:21.819Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:21.884Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:26.843Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:26.907Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:31.866Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:31.930Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:36.894Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:36.943Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:41.911Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:41.959Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:46.934Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:46.982Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:51.946Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:51.994Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:56.971Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:28:57.012Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:01.997Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:02.036Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:07.009Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:07.052Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:12.027Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:12.069Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:17.045Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:17.093Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:22.060Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:22.107Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:27.074Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:27.121Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:32.101Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:32.148Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:37.118Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:37.165Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:42.138Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:42.177Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:47.160Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:47.193Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:52.191Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:52.207Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:57.208Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:29:57.237Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:30:02.236Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:30:02.251Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:30:07.259Z"}
+{"error":"jwt expired","level":"error","message":"WebSocket connection rejected: Invalid token","timestamp":"2025-09-03T18:30:07.287Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T22:21:25.309Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T22:21:25.325Z"}
+{"error":"","level":"error","message":"Error fetching public menu:","tenantId":"tenant-1","timestamp":"2025-09-05T22:21:25.383Z"}
+{"error":"","level":"error","message":"Error fetching public menu:","tenantId":"tenant-1","timestamp":"2025-09-05T22:21:25.396Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T22:21:59.655Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T22:21:59.663Z"}
+{"error":"\"status\" is not allowed","level":"error","message":"Error creating public order:","requestBody":{"customerName":"Ali","customerPhone":"0987667646755","customer_location":null,"is_delivery":0,"items":[{"item_id":7,"name":"Zinger Burger","price":100,"quantity":1}],"status":"pending"},"tenantId":"tenant-1","timestamp":"2025-09-05T22:22:21.433Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T22:25:02.591Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T22:25:02.596Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T22:26:04.058Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T22:26:04.062Z"}
+{"error":"\"status\" is not allowed","level":"error","message":"Error creating public order:","requestBody":{"customerName":"Malik Irfan ","customerPhone":"0978675679775","customer_location":"https://www.google.com/maps?q=31.58520921800018,74.34497955670102","is_delivery":1,"items":[{"item_id":7,"name":"Zinger Burger","price":100,"quantity":1}]},"tenantId":"tenant-1","timestamp":"2025-09-05T22:36:07.985Z"}
+{"error":"\"status\" is not allowed","level":"error","message":"Error creating public order:","requestBody":{"customerName":"Ali","customerPhone":"099897867575","customer_location":null,"is_delivery":0,"items":[{"item_id":7,"name":"Zinger Burger","price":100,"quantity":1}]},"tenantId":"tenant-1","timestamp":"2025-09-05T22:36:43.126Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T22:37:00.172Z"}
+{"error":"\"status\" is not allowed","level":"error","message":"Error creating public order:","requestBody":{"customerName":"Ali","customerPhone":"98978675757","customer_location":null,"is_delivery":0,"items":[{"item_id":7,"name":"Zinger Burger","price":100,"quantity":1}]},"tenantId":"tenant-1","timestamp":"2025-09-05T22:37:51.257Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T22:44:41.361Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T22:50:32.447Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T22:50:32.453Z"}
+{"error":"\"status\" is not allowed","level":"error","message":"Error creating public order:","requestBody":{"customerName":"Ali Abdullah","customerPhone":"997686785676","customer_location":null,"is_delivery":0,"items":[{"item_id":7,"name":"Zinger Burger","price":100,"quantity":1}],"status":"pending"},"tenantId":"tenant-1","timestamp":"2025-09-05T22:50:44.915Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T22:56:29.760Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T22:56:30.531Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T22:56:30.536Z"}
+{"error":"\"status\" is not allowed","level":"error","message":"Error creating public order:","requestBody":{"customerName":"Ali","customerPhone":"99786856786","customer_location":null,"is_delivery":0,"items":[{"item_id":7,"name":"Zinger Burger","price":100,"quantity":1}]},"tenantId":"tenant-1","timestamp":"2025-09-05T22:56:42.332Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T22:58:10.770Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T22:58:10.775Z"}
+{"currentStatus":"enroute","level":"error","message":"Invalid status transition:","orderId":"136","requestedStatus":"completed","tenantId":"tenant-1","timestamp":"2025-09-05T23:02:15.446Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T23:35:12.463Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T23:35:12.468Z"}
+{"level":"error","message":"Order update denied: Order is delivered and locked","orderId":"137","tenantId":"tenant-1","timestamp":"2025-09-05T23:36:25.070Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T23:50:59.730Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T23:50:59.735Z"}
+{"level":"error","message":"CORS request rejected","timestamp":"2025-09-05T23:54:31.227Z"}
+{"error":"Not allowed by CORS","level":"error","message":"Unhandled error:","path":"/Uploads/tenant-1-1756381795089.jpg","timestamp":"2025-09-05T23:54:31.228Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T23:59:42.191Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T23:59:43.278Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T23:59:50.314Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T23:59:50.319Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T00:00:28.833Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T00:00:28.842Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T00:00:54.284Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T00:00:54.296Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T00:10:08.386Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T00:10:08.416Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T00:10:28.818Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T00:10:28.823Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T00:13:20.715Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T00:13:20.727Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T00:13:35.556Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T00:13:35.561Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T00:21:03.860Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T00:21:03.870Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T00:22:56.608Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T00:22:56.618Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T00:28:35.152Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T00:28:35.157Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T00:28:50.183Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T00:28:50.191Z"}
+{"level":"error","message":"CORS request rejected","timestamp":"2025-09-06T19:23:04.746Z"}
+{"error":"Not allowed by CORS","level":"error","message":"Unhandled error:","path":"/Uploads/tenant-1-1756381795089.jpg","timestamp":"2025-09-06T19:23:04.750Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T19:24:53.680Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T19:24:53.685Z"}
+{"level":"error","message":"CORS request rejected","timestamp":"2025-09-06T20:03:49.494Z"}
+{"error":"Not allowed by CORS","level":"error","message":"Unhandled error:","path":"/Uploads/tenant-1-1756381795089.jpg","timestamp":"2025-09-06T20:03:49.497Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T20:04:02.678Z"}
+{"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T20:04:02.683Z"}
