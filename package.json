@@ -35,7 +35,8 @@
     "react-scripts": "5.0.1",
     "sanitize-filename": "^1.6.3",
     "web-vitals": "^2.1.4",
-    "winston": "^3.17.0"
+    "winston": "^3.17.0",
+    "ws": "^8.18.3"
   },
   "scripts": {
     "start": "react-scripts start",
