@@ -493,3 +493,9 @@
 {"error":"Not allowed by CORS","level":"error","message":"Unhandled error:","path":"/Uploads/tenant-1-1756381795089.jpg","timestamp":"2025-09-06T20:03:49.497Z"}
 {"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T20:04:02.678Z"}
 {"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T20:04:02.683Z"}
+{"level":"error","message":"CORS request rejected","origin":"https://react-app-ten-black.vercel.app","timestamp":"2025-09-06T22:56:17.558Z"}
+{"error":"Not allowed by CORS","level":"error","message":"Unhandled error:","path":"/api/login","timestamp":"2025-09-06T22:56:17.562Z"}
+{"level":"error","message":"CORS request rejected","origin":"https://react-app-ten-black.vercel.app","timestamp":"2025-09-06T23:08:03.619Z"}
+{"error":"Not allowed by CORS","level":"error","message":"Unhandled error:","path":"/api/login","timestamp":"2025-09-06T23:08:03.620Z"}
+{"level":"error","message":"CORS request rejected","origin":"https://react-app-ten-black.vercel.app","timestamp":"2025-09-06T23:10:43.349Z"}
+{"error":"Not allowed by CORS","level":"error","message":"Unhandled error:","path":"/api/login","timestamp":"2025-09-06T23:10:43.350Z"}

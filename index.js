@@ -51,23 +51,32 @@ const JWT_SECRET = process.env.JWT_SECRET;
 const SALT_ROUNDS = parseInt(process.env.BCRYPT_SALT_ROUNDS) || 10;
 const PORT = process.env.PORT || 5000;
 const WS_PORT = process.env.WS_PORT || 8080;
-const allowedOrigins = process.env.CORS_ORIGINS ? process.env.CORS_ORIGINS.split(',') : [];
+// const allowedOrigins = process.env.CORS_ORIGINS ? process.env.CORS_ORIGINS.split(',') : [];
 if (allowedOrigins.length === 0) {
   logger.error('No CORS origins configured. Server will not start.');
   process.exit(1);
 }
 
 const app = express();
+
+const allowedOrigins = [
+  "https://react-app-ten-black.vercel.app", // your Vercel frontend
+  "http://localhost:3000"                   // local dev
+];
+
 app.use(cors({
   origin: (origin, callback) => {
-    if (allowedOrigins.includes(origin)) {
+    // Allow requests with no origin (like mobile apps or curl)
+    if (!origin || allowedOrigins.includes(origin)) {
       callback(null, true);
     } else {
-      logger.error('CORS request rejected', { origin });
+      console.error('CORS request rejected:', origin);
       callback(new Error('Not allowed by CORS'));
     }
-  }
+  },
+  credentials: true,
 }));
+
 app.use(express.json());
 
 // Serve static files (logos)

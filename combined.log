@@ -1,5 +1,5 @@
 {"level":"info","message":"WebSocket server running on ws://localhost:8080","timestamp":"2025-09-03T16:01:20.792Z"}
-{"level":"info","message":"Backend running on http://localhost:5000","timestamp":"2025-09-03T16:01:20.796Z"}
+{"level":"info","message":"Backend running on https://restaurant-backend-mmxx.onrender.com","timestamp":"2025-09-03T16:01:20.796Z"}
 {"level":"info","message":"Login attempt:","tenantId":"tenant-1","timestamp":"2025-09-03T16:07:25.711Z","username":"admin"}
 {"blocked":0,"level":"info","message":"Tenant check passed:","tenantId":"tenant-1","timestamp":"2025-09-03T16:07:25.756Z"}
 {"level":"info","message":"User found:","role":"manager","tenantId":"tenant-1","timestamp":"2025-09-03T16:07:25.760Z","username":"admin"}
@@ -125,7 +125,7 @@
 {"customerName":"Ali","customerPhone":"09090908978686","customer_location":"https://www.google.com/maps?q=31.585241,74.345039","is_delivery":1,"items":[{"item_id":7,"price":100,"quantity":1}],"level":"info","message":"Received order update request:","orderId":"129","rider_id":null,"status":"preparing","tenantId":"tenant-1","timestamp":"2025-09-03T16:52:52.926Z","user":{"exp":1756921947,"iat":1756918347,"role":"manager","tenantId":"tenant-1","userId":1,"username":"admin"}}
 {"error":"\"is_delivery\" must be a boolean","level":"error","message":"Invalid order data:","orderId":"129","tenantId":"tenant-1","timestamp":"2025-09-03T16:52:52.935Z"}
 {"level":"info","message":"WebSocket server running on ws://localhost:8080","timestamp":"2025-09-03T16:53:04.520Z"}
-{"level":"info","message":"Backend running on http://localhost:5000","timestamp":"2025-09-03T16:53:04.524Z"}
+{"level":"info","message":"Backend running on https://restaurant-backend-mmxx.onrender.com","timestamp":"2025-09-03T16:53:04.524Z"}
 {"customerPhone":null,"level":"info","message":"WebSocket connection attempt:","orderId":null,"tenantId":"tenant-1","timestamp":"2025-09-03T16:53:05.126Z","token":"provided"}
 {"level":"info","message":"WebSocket staff client connected:","role":"manager","tenantId":"tenant-1","timestamp":"2025-09-03T16:53:05.138Z"}
 {"customerPhone":null,"level":"info","message":"WebSocket connection attempt:","orderId":null,"tenantId":"tenant-1","timestamp":"2025-09-03T16:53:05.146Z","token":"provided"}
@@ -271,7 +271,7 @@
 {"customerName":"Ali","customerPhone":"09090908978686","customer_location":"https://www.google.com/maps?q=31.585241,74.345039","is_delivery":1,"items":[{"item_id":7,"price":100,"quantity":1}],"level":"info","message":"Received order update request:","orderId":"129","rider_id":null,"status":"completed","tenantId":"tenant-1","timestamp":"2025-09-03T16:58:48.187Z","user":{"exp":1756921947,"iat":1756918347,"role":"manager","tenantId":"tenant-1","userId":1,"username":"admin"}}
 {"error":"\"is_delivery\" must be a boolean","level":"error","message":"Invalid order data:","orderId":"129","tenantId":"tenant-1","timestamp":"2025-09-03T16:58:48.188Z"}
 {"level":"info","message":"WebSocket server running on ws://localhost:8080","timestamp":"2025-09-03T17:01:02.049Z"}
-{"level":"info","message":"Backend running on http://localhost:5000","timestamp":"2025-09-03T17:01:02.053Z"}
+{"level":"info","message":"Backend running on https://restaurant-backend-mmxx.onrender.com","timestamp":"2025-09-03T17:01:02.053Z"}
 {"customerPhone":null,"level":"info","message":"WebSocket connection attempt:","orderId":null,"tenantId":"tenant-1","timestamp":"2025-09-03T17:01:03.340Z","token":"provided"}
 {"level":"info","message":"WebSocket staff client connected:","role":"manager","tenantId":"tenant-1","timestamp":"2025-09-03T17:01:03.352Z"}
 {"customerPhone":null,"level":"info","message":"WebSocket connection attempt:","orderId":null,"tenantId":"tenant-1","timestamp":"2025-09-03T17:01:03.355Z","token":"provided"}
@@ -478,7 +478,7 @@
 {"level":"info","limit":50,"message":"Fetching orders for tenant:","page":1,"search":"","sortBy":"created_at","sortOrder":"DESC","status":"","tenantId":"tenant-1","timestamp":"2025-09-03T17:12:58.721Z"}
 {"count":6,"level":"info","message":"Orders fetched:","tenantId":"tenant-1","timestamp":"2025-09-03T17:12:58.729Z"}
 {"level":"info","message":"WebSocket server running on ws://localhost:8080","timestamp":"2025-09-03T17:13:05.964Z"}
-{"level":"info","message":"Backend running on http://localhost:5000","timestamp":"2025-09-03T17:13:05.967Z"}
+{"level":"info","message":"Backend running on https://restaurant-backend-mmxx.onrender.com","timestamp":"2025-09-03T17:13:05.967Z"}
 {"customerPhone":null,"level":"info","message":"WebSocket connection attempt:","orderId":null,"tenantId":"tenant-1","timestamp":"2025-09-03T17:13:06.267Z","token":"provided"}
 {"level":"info","message":"WebSocket staff client connected:","role":"manager","tenantId":"tenant-1","timestamp":"2025-09-03T17:13:06.280Z"}
 {"customerPhone":null,"level":"info","message":"WebSocket connection attempt:","orderId":null,"tenantId":"tenant-1","timestamp":"2025-09-03T17:13:06.452Z","token":"provided"}
@@ -599,7 +599,7 @@
 {"level":"info","limit":50,"message":"Fetching orders for tenant:","page":1,"search":"","sortBy":"created_at","sortOrder":"DESC","status":"","tenantId":"tenant-1","timestamp":"2025-09-03T17:19:37.526Z"}
 {"count":6,"level":"info","message":"Orders fetched:","tenantId":"tenant-1","timestamp":"2025-09-03T17:19:37.535Z"}
 {"level":"info","message":"WebSocket server running on ws://localhost:8080","timestamp":"2025-09-03T17:19:43.822Z"}
-{"level":"info","message":"Backend running on http://localhost:5000","timestamp":"2025-09-03T17:19:43.826Z"}
+{"level":"info","message":"Backend running on https://restaurant-backend-mmxx.onrender.com","timestamp":"2025-09-03T17:19:43.826Z"}
 {"customerPhone":null,"level":"info","message":"WebSocket connection attempt:","orderId":null,"tenantId":"tenant-1","timestamp":"2025-09-03T17:19:43.944Z","token":"provided"}
 {"level":"info","message":"WebSocket staff client connected:","role":"manager","tenantId":"tenant-1","timestamp":"2025-09-03T17:19:43.957Z"}
 {"customerPhone":null,"level":"info","message":"WebSocket connection attempt:","orderId":null,"tenantId":"tenant-1","timestamp":"2025-09-03T17:19:44.634Z","token":"provided"}
@@ -1842,7 +1842,7 @@
 {"level":"info","message":"WebSocket staff client disconnected:","tenantId":"tenant-1","timestamp":"2025-09-03T18:30:08.015Z"}
 {"level":"info","message":"WebSocket staff client disconnected:","tenantId":"tenant-1","timestamp":"2025-09-03T18:30:08.016Z"}
 {"level":"info","message":"WebSocket server running on ws://localhost:8080","timestamp":"2025-09-03T22:15:10.189Z"}
-{"level":"info","message":"Backend running on http://localhost:5000","timestamp":"2025-09-03T22:15:10.193Z"}
+{"level":"info","message":"Backend running on https://restaurant-backend-mmxx.onrender.com","timestamp":"2025-09-03T22:15:10.193Z"}
 {"level":"info","message":"Login attempt:","tenantId":"tenant-1","timestamp":"2025-09-03T22:15:58.816Z","username":"admin"}
 {"blocked":0,"level":"info","message":"Tenant check passed:","tenantId":"tenant-1","timestamp":"2025-09-03T22:15:58.947Z"}
 {"level":"info","message":"User found:","role":"manager","tenantId":"tenant-1","timestamp":"2025-09-03T22:15:58.973Z","username":"admin"}
@@ -1932,7 +1932,7 @@
 {"level":"info","message":"Fetching riders for tenant:","tenantId":"tenant-1","timestamp":"2025-09-03T22:18:06.599Z"}
 {"count":2,"level":"info","message":"Riders fetched:","tenantId":"tenant-1","timestamp":"2025-09-03T22:18:06.601Z"}
 {"level":"info","message":"WebSocket server running on ws://localhost:8080","timestamp":"2025-09-03T23:12:19.185Z"}
-{"level":"info","message":"Backend running on http://localhost:5000","timestamp":"2025-09-03T23:12:19.194Z"}
+{"level":"info","message":"Backend running on https://restaurant-backend-mmxx.onrender.com","timestamp":"2025-09-03T23:12:19.194Z"}
 {"level":"info","message":"Login attempt:","tenantId":"tenant-1","timestamp":"2025-09-03T23:15:33.150Z","username":"admin"}
 {"blocked":0,"level":"info","message":"Tenant check passed:","tenantId":"tenant-1","timestamp":"2025-09-03T23:15:33.206Z"}
 {"level":"info","message":"User found:","role":"manager","tenantId":"tenant-1","timestamp":"2025-09-03T23:15:33.211Z","username":"admin"}
@@ -2028,7 +2028,7 @@
 {"level":"info","message":"WebSocket staff client disconnected:","tenantId":"tenant-1","timestamp":"2025-09-03T23:17:10.512Z"}
 {"level":"info","message":"WebSocket staff client disconnected:","tenantId":"tenant-1","timestamp":"2025-09-03T23:17:10.515Z"}
 {"level":"info","message":"WebSocket server running on ws://localhost:8080","timestamp":"2025-09-05T22:18:55.432Z"}
-{"level":"info","message":"Backend running on http://localhost:5000","timestamp":"2025-09-05T22:18:55.453Z"}
+{"level":"info","message":"Backend running on https://restaurant-backend-mmxx.onrender.com","timestamp":"2025-09-05T22:18:55.453Z"}
 {"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T22:21:25.309Z"}
 {"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T22:21:25.325Z"}
 {"level":"info","message":"Fetching public menu for tenant:","tenantId":"tenant-1","timestamp":"2025-09-05T22:21:25.332Z"}
@@ -2098,7 +2098,7 @@
 {"count":6,"level":"info","message":"Public menu items fetched:","tenantId":"tenant-1","timestamp":"2025-09-05T22:35:39.748Z"}
 {"error":"\"status\" is not allowed","level":"error","message":"Error creating public order:","requestBody":{"customerName":"Malik Irfan ","customerPhone":"0978675679775","customer_location":"https://www.google.com/maps?q=31.58520921800018,74.34497955670102","is_delivery":1,"items":[{"item_id":7,"name":"Zinger Burger","price":100,"quantity":1}]},"tenantId":"tenant-1","timestamp":"2025-09-05T22:36:07.985Z"}
 {"level":"info","message":"WebSocket server running on ws://localhost:8080","timestamp":"2025-09-05T22:36:25.360Z"}
-{"level":"info","message":"Backend running on http://localhost:5000","timestamp":"2025-09-05T22:36:25.368Z"}
+{"level":"info","message":"Backend running on https://restaurant-backend-mmxx.onrender.com","timestamp":"2025-09-05T22:36:25.368Z"}
 {"customerPhone":null,"level":"info","message":"WebSocket connection attempt:","orderId":null,"tenantId":"tenant-1","timestamp":"2025-09-05T22:36:26.058Z","token":"provided"}
 {"level":"info","message":"WebSocket staff client connected:","role":"manager","tenantId":"tenant-1","timestamp":"2025-09-05T22:36:26.070Z"}
 {"customerPhone":null,"level":"info","message":"WebSocket connection attempt:","orderId":null,"tenantId":"tenant-1","timestamp":"2025-09-05T22:36:26.075Z","token":"provided"}
@@ -2141,7 +2141,7 @@
 {"count":6,"level":"info","message":"Public menu items fetched:","tenantId":"tenant-1","timestamp":"2025-09-05T22:56:30.538Z"}
 {"error":"\"status\" is not allowed","level":"error","message":"Error creating public order:","requestBody":{"customerName":"Ali","customerPhone":"99786856786","customer_location":null,"is_delivery":0,"items":[{"item_id":7,"name":"Zinger Burger","price":100,"quantity":1}]},"tenantId":"tenant-1","timestamp":"2025-09-05T22:56:42.332Z"}
 {"level":"info","message":"WebSocket server running on ws://localhost:8080","timestamp":"2025-09-05T22:58:04.403Z"}
-{"level":"info","message":"Backend running on http://localhost:5000","timestamp":"2025-09-05T22:58:04.406Z"}
+{"level":"info","message":"Backend running on https://restaurant-backend-mmxx.onrender.com","timestamp":"2025-09-05T22:58:04.406Z"}
 {"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T22:58:10.770Z"}
 {"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-05T22:58:10.775Z"}
 {"level":"info","message":"Fetching public menu for tenant:","tenantId":"tenant-1","timestamp":"2025-09-05T22:58:10.778Z"}
@@ -2446,7 +2446,7 @@
 {"level":"info","message":"WebSocket staff client disconnected:","tenantId":"tenant-1","timestamp":"2025-09-05T23:02:43.558Z"}
 {"level":"info","message":"WebSocket staff client disconnected:","tenantId":"tenant-1","timestamp":"2025-09-05T23:02:43.559Z"}
 {"level":"info","message":"WebSocket server running on ws://localhost:8080","timestamp":"2025-09-05T23:34:11.872Z"}
-{"level":"info","message":"Backend running on http://localhost:5000","timestamp":"2025-09-05T23:34:11.875Z"}
+{"level":"info","message":"Backend running on https://restaurant-backend-mmxx.onrender.com","timestamp":"2025-09-05T23:34:11.875Z"}
 {"level":"info","message":"Login attempt:","tenantId":"tenant-1","timestamp":"2025-09-05T23:34:35.715Z","username":"admin"}
 {"blocked":0,"level":"info","message":"Tenant check passed:","tenantId":"tenant-1","timestamp":"2025-09-05T23:34:35.753Z"}
 {"level":"info","message":"User found:","role":"manager","tenantId":"tenant-1","timestamp":"2025-09-05T23:34:35.758Z","username":"admin"}
@@ -2679,7 +2679,7 @@
 {"level":"info","message":"Fetching public menu for tenant:","tenantId":"tenant-1","timestamp":"2025-09-05T23:50:59.736Z"}
 {"count":6,"level":"info","message":"Public menu items fetched:","tenantId":"tenant-1","timestamp":"2025-09-05T23:50:59.737Z"}
 {"level":"info","message":"WebSocket server running on ws://localhost:8080","timestamp":"2025-09-05T23:51:13.548Z"}
-{"level":"info","message":"Backend running on http://localhost:5000","timestamp":"2025-09-05T23:51:13.551Z"}
+{"level":"info","message":"Backend running on https://restaurant-backend-mmxx.onrender.com","timestamp":"2025-09-05T23:51:13.551Z"}
 {"customerPhone":null,"level":"info","message":"WebSocket connection attempt:","orderId":null,"tenantId":"tenant-1","timestamp":"2025-09-05T23:51:13.571Z","token":"provided"}
 {"level":"info","message":"WebSocket staff client connected:","role":"manager","tenantId":"tenant-1","timestamp":"2025-09-05T23:51:13.577Z"}
 {"customerPhone":null,"level":"info","message":"WebSocket connection attempt:","orderId":null,"tenantId":"tenant-1","timestamp":"2025-09-05T23:51:13.594Z","token":"provided"}
@@ -2811,7 +2811,7 @@
 {"level":"info","limit":50,"message":"Fetching orders for tenant:","page":1,"search":"","sortBy":"created_at","sortOrder":"DESC","status":"","tenantId":"tenant-1","timestamp":"2025-09-05T23:53:44.577Z"}
 {"count":14,"level":"info","message":"Orders fetched:","tenantId":"tenant-1","timestamp":"2025-09-05T23:53:44.587Z"}
 {"level":"info","message":"WebSocket server running on ws://localhost:8080","timestamp":"2025-09-05T23:54:28.376Z"}
-{"level":"info","message":"Backend running on http://localhost:5000","timestamp":"2025-09-05T23:54:28.381Z"}
+{"level":"info","message":"Backend running on https://restaurant-backend-mmxx.onrender.com","timestamp":"2025-09-05T23:54:28.381Z"}
 {"level":"info","message":"Login attempt:","tenantId":"tenant-1","timestamp":"2025-09-05T23:54:30.827Z"}
 {"blocked":0,"level":"info","message":"Tenant check passed:","tenantId":"tenant-1","timestamp":"2025-09-05T23:54:30.850Z"}
 {"level":"info","message":"User found:","role":"manager","tenantId":"tenant-1","timestamp":"2025-09-05T23:54:30.852Z"}
@@ -2874,7 +2874,7 @@
 {"level":"info","message":"Fetching public menu for tenant:","tenantId":"tenant-1","timestamp":"2025-09-06T00:00:28.844Z"}
 {"count":6,"level":"info","message":"Public menu items fetched:","tenantId":"tenant-1","timestamp":"2025-09-06T00:00:28.845Z"}
 {"level":"info","message":"WebSocket server running on ws://localhost:8080","timestamp":"2025-09-06T00:00:49.741Z"}
-{"level":"info","message":"Backend running on http://localhost:5000","timestamp":"2025-09-06T00:00:49.745Z"}
+{"level":"info","message":"Backend running on https://restaurant-backend-mmxx.onrender.com","timestamp":"2025-09-06T00:00:49.745Z"}
 {"level":"info","message":"WebSocket connection attempt:","orderId":null,"tenantId":"tenant-1","timestamp":"2025-09-06T00:00:49.922Z","token":"provided"}
 {"level":"info","message":"WebSocket staff client connected:","role":"manager","tenantId":"tenant-1","timestamp":"2025-09-06T00:00:49.934Z"}
 {"level":"info","message":"WebSocket connection attempt:","orderId":"138","tenantId":"tenant-1","timestamp":"2025-09-06T00:00:49.937Z","token":"missing"}
@@ -2907,7 +2907,7 @@
 {"level":"info","message":"WebSocket connection attempt:","orderId":"139","tenantId":"tenant-1","timestamp":"2025-09-06T00:01:03.832Z","token":"missing"}
 {"level":"info","message":"WebSocket public client connected:","orderId":"139","tenantId":"tenant-1","timestamp":"2025-09-06T00:01:03.833Z"}
 {"level":"info","message":"WebSocket server running on ws://localhost:8080","timestamp":"2025-09-06T00:10:00.650Z"}
-{"level":"info","message":"Backend running on http://localhost:5000","timestamp":"2025-09-06T00:10:00.655Z"}
+{"level":"info","message":"Backend running on https://restaurant-backend-mmxx.onrender.com","timestamp":"2025-09-06T00:10:00.655Z"}
 {"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T00:10:08.386Z"}
 {"level":"info","message":"Fetching public menu for tenant:","tenantId":"tenant-1","timestamp":"2025-09-06T00:10:08.402Z"}
 {"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T00:10:08.416Z"}
@@ -2929,7 +2929,7 @@
 {"level":"info","message":"WebSocket connection attempt:","orderId":"140","tenantId":"tenant-1","timestamp":"2025-09-06T00:10:41.069Z","token":"missing"}
 {"level":"info","message":"WebSocket public client connected:","orderId":"140","tenantId":"tenant-1","timestamp":"2025-09-06T00:10:41.071Z"}
 {"level":"info","message":"WebSocket server running on ws://localhost:8080","timestamp":"2025-09-06T00:12:05.745Z"}
-{"level":"info","message":"Backend running on http://localhost:5000","timestamp":"2025-09-06T00:12:05.748Z"}
+{"level":"info","message":"Backend running on https://restaurant-backend-mmxx.onrender.com","timestamp":"2025-09-06T00:12:05.748Z"}
 {"level":"info","message":"WebSocket connection attempt:","orderId":"140","tenantId":"tenant-1","timestamp":"2025-09-06T00:12:05.854Z","token":"missing"}
 {"level":"info","message":"WebSocket connection attempt:","orderId":"138","tenantId":"tenant-1","timestamp":"2025-09-06T00:12:05.877Z","token":"missing"}
 {"level":"info","message":"WebSocket public client connected:","orderId":"140","tenantId":"tenant-1","timestamp":"2025-09-06T00:12:05.899Z"}
@@ -2951,7 +2951,7 @@
 {"level":"info","message":"Fetching public menu for tenant:","tenantId":"tenant-1","timestamp":"2025-09-06T00:13:35.569Z"}
 {"count":6,"level":"info","message":"Public menu items fetched:","tenantId":"tenant-1","timestamp":"2025-09-06T00:13:35.570Z"}
 {"level":"info","message":"WebSocket server running on ws://localhost:8080","timestamp":"2025-09-06T00:13:44.063Z"}
-{"level":"info","message":"Backend running on http://localhost:5000","timestamp":"2025-09-06T00:13:44.067Z"}
+{"level":"info","message":"Backend running on https://restaurant-backend-mmxx.onrender.com","timestamp":"2025-09-06T00:13:44.067Z"}
 {"level":"info","message":"WebSocket connection attempt:","orderId":"138","tenantId":"tenant-1","timestamp":"2025-09-06T00:13:46.045Z","token":"missing"}
 {"level":"info","message":"WebSocket public client connected:","orderId":"138","tenantId":"tenant-1","timestamp":"2025-09-06T00:13:46.098Z"}
 {"level":"info","message":"Broadcasting order notification:","messageType":"new_order","orderId":141,"tenantId":"tenant-1","timestamp":"2025-09-06T00:14:03.198Z"}
@@ -2977,3 +2977,9 @@
 {"error":"Not allowed by CORS","level":"error","message":"Unhandled error:","path":"/Uploads/tenant-1-1756381795089.jpg","timestamp":"2025-09-06T20:03:49.497Z"}
 {"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T20:04:02.678Z"}
 {"level":"error","message":"Authentication failed: No token provided","timestamp":"2025-09-06T20:04:02.683Z"}
+{"level":"error","message":"CORS request rejected","origin":"https://react-app-ten-black.vercel.app","timestamp":"2025-09-06T22:56:17.558Z"}
+{"error":"Not allowed by CORS","level":"error","message":"Unhandled error:","path":"/api/login","timestamp":"2025-09-06T22:56:17.562Z"}
+{"level":"error","message":"CORS request rejected","origin":"https://react-app-ten-black.vercel.app","timestamp":"2025-09-06T23:08:03.619Z"}
+{"error":"Not allowed by CORS","level":"error","message":"Unhandled error:","path":"/api/login","timestamp":"2025-09-06T23:08:03.620Z"}
+{"level":"error","message":"CORS request rejected","origin":"https://react-app-ten-black.vercel.app","timestamp":"2025-09-06T23:10:43.349Z"}
+{"error":"Not allowed by CORS","level":"error","message":"Unhandled error:","path":"/api/login","timestamp":"2025-09-06T23:10:43.350Z"}
