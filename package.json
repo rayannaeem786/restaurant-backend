@@ -20,6 +20,7 @@
     "joi": "^18.0.1",
     "lodash": "^4.17.21",
     "mui-color-input": "^7.0.0",
+    "mysql2": "^3.14.4",
     "promise-retry": "^2.0.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
