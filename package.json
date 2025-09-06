@@ -29,6 +29,8 @@
     "react-scripts": "5.0.1",
     "sanitize-filename": "^1.6.3",
     "web-vitals": "^2.1.4",
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
     "winston": "^3.17.0"
   },
   "scripts": {
