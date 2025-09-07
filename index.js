@@ -13,14 +13,11 @@ const rateLimit = require('express-rate-limit');
 const sanitizeFilename = require('sanitize-filename');
 require('dotenv').config();
 
-const orderRoutes = require('./orders');
-
 // Initialize logger with sensitive data masking
 const logger = winston.createLogger({
   level: 'info',
   format: winston.format.combine(
     winston.format((info) => {
-      // Mask sensitive fields
       if (info.username) {
         info.username = '****';
       }
@@ -39,7 +36,7 @@ const logger = winston.createLogger({
 });
 
 // Environment variable validation
-const requiredEnvVars = ['JWT_SECRET', 'DB_HOST', 'DB_USER', 'DB_NAME'];
+const requiredEnvVars = ['JWT_SECRET', 'MYSQL_URL'];
 for (const envVar of requiredEnvVars) {
   if (!process.env[envVar]) {
     logger.error(`Missing required environment variable: ${envVar}`);
@@ -52,8 +49,8 @@ const SALT_ROUNDS = parseInt(process.env.BCRYPT_SALT_ROUNDS) || 10;
 const PORT = process.env.PORT || 5000;
 const WS_PORT = process.env.WS_PORT || 8080;
 const allowedOrigins = process.env.CORS_ORIGINS ? process.env.CORS_ORIGINS.split(',') : [
-  "https://react-app-ten-black.vercel.app", // your Vercel frontend
-  "http://localhost:3000"                   // local dev
+  "https://react-app-ten-black.vercel.app",
+  "http://localhost:3000"
 ];
 if (allowedOrigins.length === 0) {
   logger.error('No CORS origins configured. Server will not start.');
@@ -64,7 +61,6 @@ const app = express();
 
 app.use(cors({
   origin: (origin, callback) => {
-    // Allow requests with no origin (like mobile apps or curl)
     if (!origin || allowedOrigins.includes(origin)) {
       callback(null, true);
     } else {
@@ -91,7 +87,6 @@ const storage = multer.diskStorage({
   },
   filename: (req, file, cb) => {
     const ext = path.extname(file.originalname);
-    // Validate tenantId to prevent traversal or invalid characters
     const safeTenantId = req.params.tenantId.replace(/[^a-zA-Z0-9-]/g, '');
     if (!safeTenantId) {
       return cb(new Error('Invalid tenant ID'));
@@ -112,29 +107,31 @@ const upload = multer({
       cb(new Error('Only .jpg, .jpeg, .png files are allowed'));
     }
   },
-  limits: { fileSize: 5 * 1024 * 1024 }, // 5MB limit
+  limits: { fileSize: 5 * 1024 * 1024 },
 });
 
 // MySQL connection
+const url = new URL(process.env.MYSQL_URL || 'mysql://root:OnSDQZZSvcTGJZrllquKDXuRHaOPBksG@nozomi.proxy.rlwy.net:28555/railway');
 const pool = mysql.createPool({
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD || '',
-  database: process.env.DB_NAME,
+  host: url.hostname,
+  port: url.port || 3306,
+  user: url.username,
+  password: url.password,
+  database: url.pathname.replace('/', ''),
   connectionLimit: process.env.DB_CONNECTION_LIMIT || 10,
   queueLimit: 0
 });
 
 // WebSocket server setup
 const wss = new WebSocket.Server({ port: WS_PORT });
-const clients = new Map(); // For staff: tenantId -> Set<ws>
-const orderClients = new Map(); // For customers: orderId -> Set<ws>
+const clients = new Map();
+const orderClients = new Map();
 
 // In-memory rate limiter for WebSocket connections
 const wsRateLimitMap = new Map();
-const WS_RATE_LIMIT = { max: 10, windowMs: 15 * 60 * 1000 }; // 10 connections per 15 minutes per IP
+const WS_RATE_LIMIT = { max: 10, windowMs: 15 * 60 * 1000 };
 
-// Phone number regex (basic validation, adjust as needed)
+// Phone number regex
 const phoneRegex = /^\+?\d{10,15}$/;
 
 // Periodic cleanup of stale WebSocket connections
@@ -159,7 +156,7 @@ setInterval(() => {
       orderClients.delete(orderId);
     }
   });
-}, 60000); // Run every minute
+}, 60000);
 
 wss.on('connection', (ws, req) => {
   let tenantId, token, orderId, customerPhone;
@@ -170,7 +167,6 @@ wss.on('connection', (ws, req) => {
     orderId = url.searchParams.get('orderId');
     customerPhone = url.searchParams.get('customerPhone');
 
-    // Rate-limit WebSocket connections by client IP
     const clientIp = req.socket.remoteAddress;
     const now = Date.now();
     if (!wsRateLimitMap.has(clientIp)) {
@@ -188,7 +184,6 @@ wss.on('connection', (ws, req) => {
     }
     rateLimitData.count++;
 
-    // Validate customer phone format
     if (customerPhone && !phoneRegex.test(customerPhone)) {
       logger.error('WebSocket connection rejected: Invalid phone format', { tenantId, orderId });
       ws.close(1008, 'Invalid phone format');
@@ -201,7 +196,6 @@ wss.on('connection', (ws, req) => {
   }
 
   if (token) {
-    // Staff connection logic
     if (!tenantId) {
       logger.error('WebSocket connection rejected: Missing tenantId');
       ws.close(1008, 'Tenant ID required');
@@ -236,7 +230,6 @@ wss.on('connection', (ws, req) => {
       ws.close(1008, 'Invalid token');
     }
   } else if (tenantId && orderId && customerPhone) {
-    // Public customer connection logic
     (async () => {
       try {
         const [orders] = await pool.query(
@@ -308,7 +301,6 @@ const broadcastOrderNotification = async (tenantId, order, messageType = 'new_or
       },
     });
 
-    // Send to staff
     if (clients.has(tenantId)) {
       clients.get(tenantId).forEach(client => {
         if (client.readyState === WebSocket.OPEN) {
@@ -317,7 +309,6 @@ const broadcastOrderNotification = async (tenantId, order, messageType = 'new_or
       });
     }
 
-    // Send to customer(s) for this order
     if (orderClients.has(order.order_id)) {
       orderClients.get(order.order_id).forEach(client => {
         if (client.readyState === WebSocket.OPEN) {
@@ -407,11 +398,9 @@ const restrictToManagerKitchenOrRider = async (req, res, next) => {
       }
       const order = orders[0];
 
-      // Allow riders to update to 'enroute' for unassigned 'completed' orders or their own orders
       if (status === 'enroute' && order.status === 'completed' && (!order.rider_id || order.rider_id === req.user.userId)) {
         return next();
       }
-      // Allow riders to update to 'delivered' for orders they are assigned to
       if (status === 'delivered' && order.status === 'enroute' && order.rider_id === req.user.userId) {
         return next();
       }
@@ -430,21 +419,20 @@ const restrictToManagerKitchenOrRider = async (req, res, next) => {
     }
   }
 
-  // Allow managers and kitchen staff to proceed
   next();
 };
 
 // Rate limit for login endpoint
 const loginLimiter = rateLimit({
-  windowMs: 15 * 60 * 1000, // 15 minutes
+  windowMs: 15 * 60 * 1000,
   max: 5,
   message: 'Too many login attempts, please try again later'
 });
 
 // Rate limiter for public endpoints
 const publicLimiter = rateLimit({
-  windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 100, // 100 requests per IP
+  windowMs: 15 * 60 * 1000,
+  max: 100,
   message: 'Too many requests from this IP, please try again later'
 });
 
@@ -465,7 +453,10 @@ app.use('/api/tenants/:tenantId', validateTenantId);
 app.post('/api/login', loginLimiter, async (req, res) => {
   let { tenantId, username, password } = req.body;
   try {
-    // Check if tenant is blocked when tenantId is provided
+    if (!username || !password) {
+      logger.error('Login failed: Missing credentials', { tenantId });
+      return res.status(400).json({ error: 'Username and password are required' });
+    }
     if (tenantId) {
       const [tenants] = await pool.query('SELECT tenant_id, blocked FROM tenants WHERE tenant_id = ?', [tenantId]);
       if (tenants.length === 0) {
@@ -478,30 +469,22 @@ app.post('/api/login', loginLimiter, async (req, res) => {
         return res.status(403).json({ error: 'Your Account Is Suspended By SuperAdmin So Please Contact The Administration.' });
       }
     }
-
-    // Query user based on tenantId and username
     let users;
     if (tenantId) {
       [users] = await pool.query('SELECT user_id, tenant_id, username, password, role FROM users WHERE tenant_id = ? AND username = ?', [tenantId, username]);
     } else {
       [users] = await pool.query('SELECT user_id, tenant_id, username, password, role FROM users WHERE tenant_id IS NULL AND username = ?', [username]);
     }
-
     if (users.length === 0) {
-      logger.error('Login failed: User not found', { tenantId });
+      logger.error('Login failed: User not found', { tenantId, username });
       return res.status(401).json({ error: 'Invalid credentials' });
     }
-
     const user = users[0];
-
-    // Verify password
     const isMatch = await bcrypt.compare(password, user.password);
     if (!isMatch) {
-      logger.error('Login failed: Incorrect password', { tenantId });
+      logger.error('Login failed: Incorrect password', { tenantId, username });
       return res.status(401).json({ error: 'Invalid credentials' });
     }
-
-    // Generate JWT token
     const token = jwt.sign(
       { userId: user.user_id, tenantId: user.tenant_id, username: user.username, role: user.role },
       JWT_SECRET,
@@ -509,8 +492,8 @@ app.post('/api/login', loginLimiter, async (req, res) => {
     );
     res.json({ token, role: user.role, userId: user.user_id });
   } catch (error) {
-    logger.error('Login error:', { error: error.message, tenantId });
-    res.status(500).json({ error: 'Internal server error' });
+    logger.error('Login error:', { error: error.message, sqlError: error.sqlMessage || 'N/A', tenantId, username });
+    res.status(500).json({ error: `Internal server error: ${error.message}` });
   }
 });
 
@@ -863,7 +846,6 @@ app.get('/api/tenants/:tenantId/order-history', authenticateToken, restrictToMan
       let parsedDetails = { items: [] };
       if (h.details) {
         try {
-          // Validate JSON structure
           const details = JSON.parse(h.details);
           if (typeof details !== 'object' || details === null || !Array.isArray(details.items)) {
             throw new Error('Invalid details format');
@@ -930,12 +912,13 @@ app.get('/health', async (req, res) => {
     await pool.query('SELECT 1');
     res.json({ status: 'ok', database: 'connected' });
   } catch (error) {
-    logger.error('Health check failed:', { error: error.message });
+    logger.error('Health check failed:', { error: error.message, sqlError: error.sqlMessage || 'N/A' });
     res.status(500).json({ status: 'error', database: 'disconnected' });
   }
 });
 
 // Use order routes
+const orderRoutes = require('./orders');
 app.use('/api/tenants/:tenantId', orderRoutes({
   pool,
   authenticateToken,
