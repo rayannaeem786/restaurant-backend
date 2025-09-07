@@ -173,7 +173,7 @@ setInterval(() => {
 wss.on('connection', (ws, req) => {
   let tenantId, token, orderId, customerPhone;
   try {
-    const url = new URL(req.url, `ws://${req.headers.host}`);
+    const url = new URL(req.url, `wss://${req.headers.host}`);
     tenantId = url.searchParams.get('tenantId');
     token = url.searchParams.get('token');
     orderId = url.searchParams.get('orderId');
