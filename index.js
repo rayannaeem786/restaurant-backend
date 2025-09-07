@@ -13,30 +13,29 @@ const rateLimit = require('express-rate-limit');
 const sanitizeFilename = require('sanitize-filename');
 require('dotenv').config();
 
+const orderRoutes = require('./orders');
+
 // Initialize logger with sensitive data masking
 const logger = winston.createLogger({
   level: 'info',
   format: winston.format.combine(
     winston.format((info) => {
-      if (info.username) {
-        info.username = '****';
-      }
-      if (info.customerPhone) {
-        info.customerPhone = '****';
-      }
+      if (info.username) info.username = '****';
+      if (info.customerPhone) info.customerPhone = '****';
       return info;
     })(),
     winston.format.timestamp(),
     winston.format.json()
   ),
   transports: [
+    new winston.transports.Console(), // Use console for Onrender compatibility
     new winston.transports.File({ filename: 'error.log', level: 'error' }),
     new winston.transports.File({ filename: 'combined.log' })
   ]
 });
 
 // Environment variable validation
-const requiredEnvVars = ['JWT_SECRET', 'MYSQL_URL'];
+const requiredEnvVars = ['JWT_SECRET', 'DB_HOST', 'DB_USER', 'DB_NAME', 'DB_PASSWORD', 'DB_PORT'];
 for (const envVar of requiredEnvVars) {
   if (!process.env[envVar]) {
     logger.error(`Missing required environment variable: ${envVar}`);
@@ -48,10 +47,10 @@ const JWT_SECRET = process.env.JWT_SECRET;
 const SALT_ROUNDS = parseInt(process.env.BCRYPT_SALT_ROUNDS) || 10;
 const PORT = process.env.PORT || 5000;
 const WS_PORT = process.env.WS_PORT || 8080;
-const allowedOrigins = process.env.CORS_ORIGINS ? process.env.CORS_ORIGINS.split(',') : [
-  "https://react-app-ten-black.vercel.app",
-  "http://localhost:3000"
-];
+const allowedOrigins = process.env.CORS_ORIGINS
+  ? process.env.CORS_ORIGINS.split(',')
+  : ['https://react-app-ten-black.vercel.app', 'http://localhost:3000'];
+
 if (allowedOrigins.length === 0) {
   logger.error('No CORS origins configured. Server will not start.');
   process.exit(1);
@@ -111,16 +110,31 @@ const upload = multer({
 });
 
 // MySQL connection
-const url = new URL(process.env.MYSQL_URL || 'mysql://root:OnSDQZZSvcTGJZrllquKDXuRHaOPBksG@nozomi.proxy.rlwy.net:28555/railway');
 const pool = mysql.createPool({
-  host: url.hostname,
-  port: url.port || 3306,
-  user: url.username,
-  password: url.password,
-  database: url.pathname.replace('/', ''),
-  connectionLimit: process.env.DB_CONNECTION_LIMIT || 10,
+  host: process.env.DB_HOST,
+  port: parseInt(process.env.DB_PORT) || 3306,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD || '',
+  database: process.env.DB_NAME,
+  connectionLimit: parseInt(process.env.DB_CONNECTION_LIMIT) || 10,
   queueLimit: 0
 });
+
+// Test database connection on startup
+pool.getConnection()
+  .then(conn => {
+    console.log('MySQL connection successful:', {
+      host: process.env.DB_HOST,
+      port: process.env.DB_PORT,
+      database: process.env.DB_NAME
+    });
+    conn.release();
+  })
+  .catch(err => {
+    console.error('MySQL connection failed:', { error: err.message, code: err.code });
+    logger.error('MySQL connection failed:', { error: err.message, code: err.code });
+    process.exit(1);
+  });
 
 // WebSocket server setup
 const wss = new WebSocket.Server({ port: WS_PORT });
@@ -131,10 +145,8 @@ const orderClients = new Map();
 const wsRateLimitMap = new Map();
 const WS_RATE_LIMIT = { max: 10, windowMs: 15 * 60 * 1000 };
 
-// Phone number regex
 const phoneRegex = /^\+?\d{10,15}$/;
 
-// Periodic cleanup of stale WebSocket connections
 setInterval(() => {
   clients.forEach((clientSet, tenantId) => {
     clientSet.forEach(ws => {
@@ -446,6 +458,11 @@ const validateTenantId = (req, res, next) => {
   next();
 };
 
+// Root route to handle GET /
+app.get('/', (req, res) => {
+  res.json({ status: 'ok', message: 'Restaurant Backend API is running. Use /health or /api endpoints.' });
+});
+
 // Apply to all routes with tenantId
 app.use('/api/tenants/:tenantId', validateTenantId);
 
@@ -453,10 +470,12 @@ app.use('/api/tenants/:tenantId', validateTenantId);
 app.post('/api/login', loginLimiter, async (req, res) => {
   let { tenantId, username, password } = req.body;
   try {
+    console.log('Login attempt:', { tenantId, username }); // Debug log
     if (!username || !password) {
       logger.error('Login failed: Missing credentials', { tenantId });
       return res.status(400).json({ error: 'Username and password are required' });
     }
+
     if (tenantId) {
       const [tenants] = await pool.query('SELECT tenant_id, blocked FROM tenants WHERE tenant_id = ?', [tenantId]);
       if (tenants.length === 0) {
@@ -469,22 +488,26 @@ app.post('/api/login', loginLimiter, async (req, res) => {
         return res.status(403).json({ error: 'Your Account Is Suspended By SuperAdmin So Please Contact The Administration.' });
       }
     }
+
     let users;
     if (tenantId) {
       [users] = await pool.query('SELECT user_id, tenant_id, username, password, role FROM users WHERE tenant_id = ? AND username = ?', [tenantId, username]);
     } else {
       [users] = await pool.query('SELECT user_id, tenant_id, username, password, role FROM users WHERE tenant_id IS NULL AND username = ?', [username]);
     }
+
     if (users.length === 0) {
-      logger.error('Login failed: User not found', { tenantId, username });
+      logger.error('Login failed: User not found', { tenantId });
       return res.status(401).json({ error: 'Invalid credentials' });
     }
+
     const user = users[0];
     const isMatch = await bcrypt.compare(password, user.password);
     if (!isMatch) {
-      logger.error('Login failed: Incorrect password', { tenantId, username });
+      logger.error('Login failed: Incorrect password', { tenantId });
       return res.status(401).json({ error: 'Invalid credentials' });
     }
+
     const token = jwt.sign(
       { userId: user.user_id, tenantId: user.tenant_id, username: user.username, role: user.role },
       JWT_SECRET,
@@ -492,7 +515,8 @@ app.post('/api/login', loginLimiter, async (req, res) => {
     );
     res.json({ token, role: user.role, userId: user.user_id });
   } catch (error) {
-    logger.error('Login error:', { error: error.message, sqlError: error.sqlMessage || 'N/A', tenantId, username });
+    console.error('Login error details:', { error: error.message, code: error.code, tenantId }); // Enhanced logging
+    logger.error('Login error:', { error: error.message, code: error.code, tenantId });
     res.status(500).json({ error: `Internal server error: ${error.message}` });
   }
 });
@@ -909,16 +933,16 @@ app.get('/api/tenants/:tenantId/analytics', authenticateToken, restrictToManager
 // Health check endpoint
 app.get('/health', async (req, res) => {
   try {
-    await pool.query('SELECT 1');
-    res.json({ status: 'ok', database: 'connected' });
+    const [result] = await pool.query('SELECT 1');
+    res.json({ status: 'ok', database: 'connected', result });
   } catch (error) {
-    logger.error('Health check failed:', { error: error.message, sqlError: error.sqlMessage || 'N/A' });
-    res.status(500).json({ status: 'error', database: 'disconnected' });
+    console.error('Health check failed:', { error: error.message, code: error.code });
+    logger.error('Health check failed:', { error: error.message, code: error.code });
+    res.status(500).json({ status: 'error', database: 'disconnected', error: error.message });
   }
 });
 
 // Use order routes
-const orderRoutes = require('./orders');
 app.use('/api/tenants/:tenantId', orderRoutes({
   pool,
   authenticateToken,
@@ -931,9 +955,13 @@ app.use('/api/tenants/:tenantId', orderRoutes({
 
 // Centralized error handling middleware
 app.use((err, req, res, next) => {
+  console.error('Unhandled error:', { error: err.message, path: req.path });
   logger.error('Unhandled error:', { error: err.message, path: req.path });
   res.status(500).json({ error: 'Internal server error' });
 });
 
 // Start server
-app.listen(PORT, () => console.log(`Backend running on http://localhost:${PORT}`));
+app.listen(PORT, () => {
+  console.log(`Backend running on http://localhost:${PORT}`);
+  console.log('CORS allowed origins:', allowedOrigins);
+});
